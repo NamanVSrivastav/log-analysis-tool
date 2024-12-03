@@ -14,18 +14,18 @@ This Python script is designed for monitoring web server logs and providing insi
 - argparse
 - collections
 - re
-- You can install the required libraries using:
+You can install the required libraries using:
 - pip install -r requirements.txt
 
 ## Usage
-- Run the script by providing the path to the log file:
+Run the script by providing the path to the log file:
 - python log_analysis.py <logfile> --threshold <threshold_value>
 - <logfile>: Path to the server log file.
 - --threshold: Optional parameter to set a threshold for failed login attempts (default is 5).
 
 Example:
 - python log_analysis.py logs.txt --threshold 3
-- This will analyze the logs.txt file and alert if there are more than 3 failed login attempts from any IP.
+This will analyze the logs.txt file and alert if there are more than 3 failed login attempts from any IP.
 
 ## Sample Output
 
